@@ -1,0 +1,202 @@
+body {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/019/600/751/large/sachiko15-12rgbminiphotoshop.jpg?1564220342);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p,
+ul {
+  font-family: "monospace";
+  font-size: 12px;
+}
+
+ul {
+  padding-left: 0;
+  word-wrap: wrap;
+  list-style-type: none;
+}
+
+.signika {
+  font-family: "Signika";
+}
+
+.sticky-wrapper {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+header .jumbotron {
+  margin: 0;
+  background-image: url("https://www.gensh.in/fileadmin/Database/Characters/Traveller/charPortrait_Lumine_XL.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: -200px;
+  background-color: transparent !important;
+}
+@media (max-width: 981px) {
+  header .jumbotron {
+    background-size: cover;
+    background-position-x: -300px;
+  }
+}
+header .jumbotron .defense {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: cover;
+}
+header q {
+  quotes: "“" "”";
+}
+header q::before {
+  content: open-quote;
+}
+header q::after {
+  content: close-quote;
+}
+header h1 {
+  margin-bottom: 0;
+}
+header ul li::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp ";
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+#infos-1 #info {
+  transform: rotate(4deg);
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #3590c4;
+  padding: 0;
+}
+#infos-1 #info ul {
+  padding-right: 10px;
+}
+#infos-1 #games {
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  padding: 0;
+  background: #0284cf;
+}
+#infos-1 #info,
+#infos-1 #games {
+  display: block;
+  height: 100%;
+  width: 20em;
+  margin: 3em;
+  padding: 0;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transform: rotate(-6deg);
+  transition: transform 0.15s linear;
+}
+#infos-1 #info h2,
+#infos-1 #games h2 {
+  padding: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  background-color: #f0ff9d;
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+#infos-1 #info ul,
+#infos-1 #games ul {
+  padding: 10px 0;
+}
+#infos-1 #info ul li,
+#infos-1 #games ul li {
+  border-bottom: solid 1px;
+}
+
+#infos-2 #historia {
+  transform: rotate(2deg);
+  background-color: #0081cc;
+}
+#infos-2 #appearance {
+  transform: rotate(-2deg);
+  background-color: #159eed;
+}
+#infos-2 #historia,
+#infos-2 #appearance {
+  display: block;
+  max-width: 35em;
+  margin: 3em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transition: transform 0.15s linear;
+  padding: 0;
+}
+#infos-2 #historia h2,
+#infos-2 #appearance h2 {
+  padding: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  background-color: #f0ff9d;
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#infos-1 p,
+#infos-2 p {
+  padding: 10px 0;
+  padding-right: 20px;
+}
+
+#extra {
+  background-color: #2aa7ef;
+  display: block;
+  margin: 3em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transition: transform 0.15s linear;
+  padding: 0;
+  transform: rotate(4deg);
+}
+#extra div.col {
+  padding-left: 0;
+  padding-righet: 0;
+}
+#extra ul {
+  margin-left: 10px;
+}
+#extra ul li::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp ";
+}
+#extra p {
+  width: 100%;
+  background-color: #f0ff9d;
+  margin-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.hearts5::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp nbsp nbsp nbsp ";
+}
+
+.hearts4::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp nbsp nbsp nbsp ";
+}
+
+.hearts3::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp nbsp nbsp nbsp ";
+}
+
+.hearts2::before {
+  font-family: "bootstrap-icons";
+  content: "nbsp nbsp nbsp nbsp ";
+}
